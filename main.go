@@ -45,4 +45,19 @@ func main() {
 
 	fmt.Println("Hai", firstName, lastName+"!")
 
+	for a := 0; a <= 10; a++ {
+		if a%2 == 0 {
+			fmt.Println("ANGKA GENAPNYA ADALAH :", a)
+		} else {
+			fmt.Println("ANGKA GANJILNYA ADALAH :", a)
+		}
+	}
+
+	for b := 0; b < 10; b++ {
+		for k := b; k < 10; k++ {
+			fmt.Print("*")
+		}
+		fmt.Println()
+	}
+
 }
