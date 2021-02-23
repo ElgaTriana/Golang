@@ -11,9 +11,23 @@ func main() {
 
 	var positif uint16 = 256
 
+	var tinggi uint8 = 10
+
+	var panjang uint8 = 2
+
+	var lebar uint8 = 2
+
 	var negatif = -12039403
 
 	const namanih = "APA YAA?"
+
+	fmt.Println("RUMUS APA YA INI LUPA")
+
+	var hasil = panjang * lebar * tinggi
+
+	fmt.Println("Hasilnya adalah = ", hasil)
+
+	fmt.Println("END RUMUS APA YA INI LUPA")
 
 	fmt.Println("john wick")
 
